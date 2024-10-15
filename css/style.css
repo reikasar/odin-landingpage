@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: Roboto;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main-wrapper {
+  width: 50%;
+  height: auto;
+  display: flex;
+}
+
+.header {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.nav li {
+  margin-left: 5px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+}
+
+.hero-text {
+  display: flex;
+  flex-flow: column;
+}
+
+.hero img {
+  width: 30%;
+  height: auto;
+}
