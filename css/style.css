@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
 
-  outline: 1px solid red;
 }
 
 body {
@@ -15,7 +14,7 @@ body {
   flex-flow: column;
 }
 
-/* Header section start */
+/* header section start */
 
 .header {
   background-color: #1f2937;
@@ -52,9 +51,9 @@ body {
   color: #e5e7eb
 }
 
-/* Header section end */
+/* header section end */
 
-/* Hero section start */
+/* hero section start */
 
 .hero {
   background-color: #1f2937;
@@ -98,9 +97,9 @@ body {
   padding: 50px;a
 }
 
-/* Hero section end */
+/* hero section end */
 
-/* Info section start */
+/* info section start */
 
 .info {
   display: flex;
@@ -133,6 +132,65 @@ body {
   flex: 1 1 200px;
 }
 
-/* Info section end */
+/* info section end */
 
-/* Info section end */
+/* testimonial section start */
+
+.testimonial {
+  background-color: #e5e7eb;
+  padding: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.testimonial p {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 36px;
+  color: #1f2937
+}
+
+.testimonial .author {
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* testimonial section end */
+
+/* cto section start */
+
+.cto {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.cto-box {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  gap: 1em;
+  border-radius: 10px;
+}
+
+.cto-box .signup {
+  border: 2px solid #e5e7eb;
+}
+
+/* cto section end */
+
+/* footer section start */
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 20px;
+  text-align: center;
+}
+
+/* footer section end */
