@@ -5,13 +5,18 @@
 
 }
 
+html {
+  background-color: black;
+}
+
 body {
   font: Roboto;
-  width: 100%;
+  width: 1080px;
   min-height: 100vh;
 
   display: flex;
   flex-flow: column;
+  margin: auto;
 }
 
 /* header section start */
@@ -102,6 +107,7 @@ body {
 /* info section start */
 
 .info {
+  background-color: white;
   display: flex;
   flex-direction: column;
 }
@@ -111,13 +117,13 @@ body {
   font-weight: 900;
   color: #1f2937;
   text-align: center;
-  padding: 30px;
+  padding-top: 30px;
 }
 
 .card-container {
   width: 100%;
   display: flex;
-  padding: 50px;
+  padding: 40px 50px 50px 50px;
   gap: 1.5em;
 }
 
@@ -142,6 +148,7 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: center;
+  padding: 70px;
 }
 
 .testimonial p {
@@ -162,8 +169,9 @@ body {
 /* cto section start */
 
 .cto {
-  width: 80%;
-  margin: auto;
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -174,7 +182,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  gap: 1em;
   border-radius: 10px;
 }
 
