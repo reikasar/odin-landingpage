@@ -19,6 +19,15 @@ body {
   margin: auto;
 }
 
+.header,
+.hero,
+.info,
+.testimonial,
+.cto,
+.footer {
+  flex: 1;
+}
+
 /* header section start */
 
 .header {
